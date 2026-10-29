@@ -1,0 +1,6 @@
+{
+  "name": "DinLipi",
+  "description": "Daily routine planner and to-do list app with 1-minute-prior sound and vibration reminders in Bengali and English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

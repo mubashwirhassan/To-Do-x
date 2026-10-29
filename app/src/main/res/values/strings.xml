@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DinLipi</string>
+    <string name="channel_name_reminders">Routine &amp; Task Reminders</string>
+    <string name="channel_description_reminders">Alerts 1 minute before your scheduled daily routines and tasks</string>
+    <string name="cd_empty_illustration">Calm morning desk with daily routine planner and clock</string>
+    <string name="cd_toggle_language">Switch language between Bengali and English</string>
+    <string name="cd_test_notification">Send test reminder notification</string>
+    <string name="cd_add_item">Add new routine or to-do task</string>
+</resources>
