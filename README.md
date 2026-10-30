@@ -1,22 +1,65 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+  <h1>DinLipi</h1>
+  <p><strong>Daily Routine, Focus & Progress</strong></p>
 </div>
 
-# Run and deploy your AI Studio app
+# DinLipi
 
-This contains everything you need to run your app locally.
+DinLipi is a modern Android productivity app designed to help users build better daily routines, stay focused, and track progress toward personal goals. It combines task management, habit tracking, and focus session tools into one clean and motivating experience.
 
-View your app in AI Studio: https://ai.studio/apps/1095293c-65e2-4f6e-9e96-7af9bf2fb00a
+## Why this app?
 
-## Run Locally
+Many people struggle to stay consistent with their routines and goals. DinLipi helps by making daily planning simple and encouraging through a structured layout:
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- Track your daily routine and recurring habits
+- Keep focus with built-in work sessions and breaks
+- Manage to-do tasks with clear daily progress
+- Review performance through simple progress indicators
+- Maintain motivation with a calm, minimal interface
 
+## Features
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+- Daily routine dashboard
+- To-do task tracking
+- Focus timer with work and break sessions
+- Habit and completion statistics
+- Personal progress insights
+- Clean dark-themed interface inspired by modern productivity apps
+
+## Screenshots
+
+The app includes a polished dashboard experience with sections for:
+
+- Routine overview
+- Daily tasks
+- Focus timer
+- Progress summary
+- Habit completion tracking
+
+## Getting Started
+
+### Prerequisites
+
+- [Android Studio](https://developer.android.com/studio)
+- Android SDK
+- A physical device or emulator
+
+### Run locally
+
+1. Open Android Studio.
+2. Select Open and choose this project folder.
+3. Let Gradle sync and resolve dependencies.
+4. Connect an emulator or Android device.
+5. Click Run to build and launch the app.
+
+## Project Structure
+
+This project is built using Kotlin for the Android application layer and is organized around a productivity-focused UI and routine management flow.
+
+## License
+
+This project is for personal and educational use. Please check the repository license details and add the appropriate license if needed.
+
+## Notes
+
+DinLipi is designed to support healthier productivity habits by helping users build routines, stay consistent, and monitor improvement over time.
